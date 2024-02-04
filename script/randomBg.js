@@ -1,8 +1,13 @@
 const bgImages = [
-    "0.gif",
-    "1.gif",
-    "2.gif",
-    "3.gif",
+    "0.png",
+    "1.png",
+ 
+    "2.png",
+
+    "3.png",
+
+    "4.gif",
+   
 
     
 ];
@@ -21,7 +26,7 @@ function changeBgImg (){
     console.log(i);
     i++;
     if(i>= bgImages.length){
-       return i=0;
+       i=0;
     }
 }
 

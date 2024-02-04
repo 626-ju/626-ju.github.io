@@ -29,7 +29,8 @@ body {
 
 .backgroundSection {
   
-  transition: 0.5s ;
+  transition:ease 1.5s;
+  
   position: absolute;
   top: 0;
   left: 0;
@@ -50,8 +51,13 @@ body {
 
 .clockSection {
   position: absolute;
-  top: 270px;
-  left: 540px;
+  top: 33%;
+  left: 34%;
+
+
+width:490px;
+height: 250px;
+
   font-family: "SOGANGUNIVERSITYTTF";
   display: flex;
   flex-direction: column;
@@ -69,13 +75,13 @@ body {
 
 .loginSection {
   position: absolute;
-  top: 280px;
-  left: 460px;
+  top: 33%;
+  left: 30%;
 
   font-family: "iceJaram-Rg";
 
   width:600px;
-  height: 300px;
+  height: 200px;
   font-size: 40px;
   margin-top: 160px;
   text-align: center;
@@ -138,8 +144,8 @@ body {
 
 .todoSection {
   position: absolute;
-  top: 520px;
-  left: 500px;
+  top: 62%;
+  left: 31%;
 
   width: 600px;
   height: 200px;
