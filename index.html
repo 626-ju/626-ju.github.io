@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="backgroundSection"></section>
+
+   
+    <section class="loginSection">
+      <form class="loginForm">
+        <input type="text" placeholder="Can I have your name?" required />
+        <button type="submit">Login</button>
+      </form>
+      <div class="greeting hidden"></div>
+    </section>
+
+    <section class="todoSection">
+      <form class="todoForm">
+        <input type="text" required placeholder="What should you do today" />
+        <button id="todoSubmitBtn" type="submit">✔</button>
+      </form>
+      <ul class="todoList"></ul>
+    </section>
+
+    <section class="clockSection">
+      <h2 id="nowDate"></h2>
+      <h2 id="clock"></h2>
+    </section>
+
+    <section class="geoSection">
+      <img />
+      <h3></h3>
+    </section>
+
+    <script defer src="script/clock.js"></script>
+    <script defer src="script/geoLocation.js"></script>
+    <script defer src="script/login.js"></script>
+    <script defer src="script/randomBg.js"></script>
+    <script defer src="script/todo.js"></script>
+    
+  </body>
+</html>
