@@ -4,9 +4,9 @@ const bgImages = [
  
     "2.png",
 
-    "3.png",
+    "3.gif",
 
-    "4.gif",
+   
    
 
     
