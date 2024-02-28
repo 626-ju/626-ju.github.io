@@ -52,7 +52,7 @@ body {
 .clockSection {
   position: absolute;
   top: 33%;
-  left: 34%;
+  left: 37%;
 
 
 width:490px;
@@ -76,7 +76,7 @@ height: 250px;
 .loginSection {
   position: absolute;
   top: 33%;
-  left: 30%;
+  left: 35%;
 
   font-family: "iceJaram-Rg";
 
@@ -144,8 +144,8 @@ height: 250px;
 
 .todoSection {
   position: absolute;
-  top: 62%;
-  left: 31%;
+  top: 58%;
+  left: 37%;
 
   width: 600px;
   height: 200px;
